@@ -1,3 +1,11 @@
 body {
-   background: blueviolet;
+   text-align: center;
+}
+.header{
+   background-color: rgb(194, 190, 186);
+   margin-left: auto;
+   margin-right: auto;
+   width: 30%;
+   border-color: black;
+   border-style: solid;
 }
