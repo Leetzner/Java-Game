@@ -2,36 +2,48 @@ body {
    text-align: center;
    margin-left: auto;
    margin-right: auto;
+   margin: auto;
 }
 h1 {
    font-family: 'Signika', sans-serif;
-   font-size: 38px;
+   font-size: 36px;
 }
 h2{
    font-family: 'Signika', sans-serif;
 }
 p {
    font-family: 'Signika', sans-serif;
-   font-size: 28px;
+   font-size: 26px;
 }
 .header{
    background-color: rgb(183, 190, 206);
    width: 100%;
    margin-left: auto;
    margin-right: auto;
-   
-   
+   padding-top: 10px;
+   padding-bottom: 5px;
 }
 .selection{ 
    margin-left: auto;
    margin-right: auto;
-   margin-top: 10%;
+   background-color: #589595;
+   margin: auto;
+   padding-top: 10px;
 }
 img {
-   
    height: 100px;
  }
  .rules{
-   margin-bottom: 100px;
-   height: 355px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color:#1c6eb0;
+   width: 100%;
+   padding-bottom: 10px;
+   padding-top: 10px;
  }
+ .rules1 {
+   height: 250px;
+ }
+button {
+   border-radius: 10%;
+}
