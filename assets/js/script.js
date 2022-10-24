@@ -52,4 +52,22 @@ function getResults(playerChoice, computerChoice){
     }
     return score
 }
+function showResult(score, playerChoice, computerChoice){
+
+}
+
+function onClickRPSLS(playerChoice){
+     console.log({playerChoice})
+     const computerChoice = getComputerChoice()
+     console.log({computerChoice})
+}
+function playGame(){
+
+    const rpslsButtons = document.querySelectorAll('.rpslsButton')
+    rpslsButtons[0].onclick = () => console.log(rpslsButtons[0].value)
+
+    rpslsButtons.forEach(rpslsButton => {
+        rpslsButton.onclick = () => onClickRPSLS(rpslsButton.value)
+    })
+}
 

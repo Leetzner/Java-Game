@@ -23,20 +23,26 @@
         <img src="assets/pictures/rules.jpg" class="rules1">
 
     </div>
-<!-- Score section-->
-    <div class="container">
-        <div id="score"></div>
-        <div id="description"></div>
-        <div id="selection" class="selection">
+<!-- Game section-->
+<div class="wrapper">
+        <div class="selection">
             <h2>Your selection:</h2>
-            <button class="rpslsButton"><img src="assets/pictures/rock.png"></button>
-            <button class="rpslsButton"><img src="assets/pictures/paper.png"></button>
-            <button class="rpslsButton"><img src="assets/pictures/scissors.png"></button>
-            <button class="rpslsButton"><img src="assets/pictures/lizard.png"></button>
-            <button class="rpslsButton"><img src="assets/pictures/spock.png"></button>
+            <div class="buttons">
+            <button class="rpslsButton" value="Rock"><img src="assets/pictures/rock.png"></button>
+            <button class="rpslsButton" value="Paper"><img src="assets/pictures/paper.png"></button>
+            <button class="rpslsButton" value="Scissors"><img src="assets/pictures/scissors.png"></button>
+            <button class="rpslsButton" value="Lizard"><img src="assets/pictures/lizard.png"></button>
+            <button class="rpslsButton" value="Spock"><img src="assets/pictures/spock.png"></button>
+            </div>
         </div>
-
+    <div class="resultContainer">
+    <div id ="player-score"></div>  
+    <div id ="hands"></div> 
+    <div id ="result"></div>
+    <button id='endGameButton'>End-Game</button>
     </div>
+</div>
+    
     <script src="assets/js/script.js" type="module"></script>
 </body>
 </html>
