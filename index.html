@@ -8,36 +8,41 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Rock, Paper, Scissors, Lizard, Spock Game</title>
 </head>
 <!-- Header section-->
 <body>
     <div class="header">
         <h1>I wanna play a game!</h1>
         <p>Of</p>
-        <p>Rock, Paper, Scissor, Lizard, Spock</p>
+        <p>Rock, Paper, Scissors, Lizard, Spock</p>
     </div>
-    <!--Rule section-->
+
+<!--Rule section-->
     <div class="rules">
         <h1>Rules:</h1>
-        <img src="assets/pictures/rules.jpg" class="rules1">
+        <img src="assets/pictures/rules.jpg" class="rules1" alt="Rules">
 
     </div>
+
 <!-- Game section-->
+
 <div class="wrapper">
         <div class="selection">
             <h2>Your selection:</h2>
             <div class="buttons">
-            <button class="rpslsButton" value="Rock"><img src="assets/pictures/rock.png"></button>
-            <button class="rpslsButton" value="Paper"><img src="assets/pictures/paper.png"></button>
-            <button class="rpslsButton" value="Scissors"><img src="assets/pictures/scissors.png"></button>
-            <button class="rpslsButton" value="Lizard"><img src="assets/pictures/lizard.png"></button>
-            <button class="rpslsButton" value="Spock"><img src="assets/pictures/spock.png"></button>
+            <button class="rpslsButton" value="Rock"><img src="assets/pictures/rock.png" alt="rock"></button>
+            <button class="rpslsButton" value="Paper"><img src="assets/pictures/paper.png" alt="paper"></button>
+            <button class="rpslsButton" value="Scissors"><img src="assets/pictures/scissors.png" alt="scissors"></button>
+            <button class="rpslsButton" value="Lizard"><img src="assets/pictures/lizard.png" alt="lizard"></button>
+            <button class="rpslsButton" value="Spock"><img src="assets/pictures/spock.png" alt="spock"></button>
             </div>
         </div>
+
+<!--Result section-->
+
     <div class="resultContainer">
-    <div id ="player-score"></div>
-    <div id ="computer-score"></div>  
+    <div id ="player-score"></div> 
     <div id ="hands"></div> 
     <div id ="result"></div>
     <button id='endGameButton'>End-Game</button>
