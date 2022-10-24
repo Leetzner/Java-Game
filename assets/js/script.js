@@ -1,3 +1,5 @@
+// Credits to "CleverProgrammer" on Youtube for tips on how to code this "AI"
+
 // updated when the computer or human wins
 const totalScore = {computerScore :0, playerScore: 0}
 
