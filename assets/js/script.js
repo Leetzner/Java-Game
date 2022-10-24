@@ -1,3 +1,6 @@
+
+const totalScore = {computerScore :0, playerScore: 0}
+
 //** This function makes the computer randomly selects between `rock`
  // `paper``scissor` `lizard``spock`/
 
@@ -5,6 +8,7 @@ function getComputerChoice(){
     const rpslsChoice = ['Rock', 'Paper', 'Scissor', 'Lizard', 'Spock']
     const randomNumber = Math.floor(Math.random()* 5)
     return rpslsChoice[randomNumber]
+    
 }
 // This function handle the results between Human and computer/
 
@@ -51,15 +55,34 @@ function getResults(playerChoice, computerChoice){
         score = -1
     }
     return score
+    
 }
 function showResult(score, playerChoice, computerChoice){
+    const resultDiv = document.getElementById('result')
+    const handsDiv = document.getElementById('hands')
+    const playerScoreDiv = document.getElementById('player-score')
+        if(score == -1){
+            resultDiv.innerText = 'You Lose!'    
+        } else if (score == 0){
+            resultDiv.innerText = "It´s a tie!"
+        } else {
+            resultDiv.innerText = 'You won!'
+        }
+        handsDiv.innerText = `${playerChoice} vs ${computerChoice}`
+        playerScoreDiv.innerText = `Your Score: ${totalScore['playerScore']}`
 
+    
 }
 
 function onClickRPSLS(playerChoice){
      console.log({playerChoice})
      const computerChoice = getComputerChoice()
      console.log({computerChoice})
+     const score = getResults(playerChoice, computerChoice)
+     totalScore['playerScore'] += score
+     console.log({score})
+     console.log(totalScore)
+     showResult(score, playerChoice, computerChoice)
 }
 function playGame(){
 
@@ -69,5 +92,20 @@ function playGame(){
     rpslsButtons.forEach(rpslsButton => {
         rpslsButton.onclick = () => onClickRPSLS(rpslsButton.value)
     })
+    const endGameButton = document.getElementById('endGameButton')
+    endGameButton.onclick = () => endGame(totalScore)
+}
+function endGame(totalScore){
+totalScore['playerScore'] = 0
+totalScore['computerScore'] = 0
+
+const resultDiv = document.getElementById('result')
+const handsDiv = document.getElementById('hands')
+const playerScoreDiv = document.getElementById('player-score')
+
+resultDiv.innerText = ''
+handsDiv.innerText = ''
+playerScoreDiv.innerText = ''
 }
 
+playGame()

@@ -3,6 +3,7 @@ body {
    margin-left: auto;
    margin-right: auto;
    margin: auto;
+   max-width: 720px;
 }
 h1 {
    font-family: 'Signika', sans-serif;
@@ -30,6 +31,12 @@ p {
    margin: auto;
    padding-top: 10px;
 }
+.resultContainer {
+   background-color:#589595 ;
+   font-family: 'Signika', sans-serif;
+   font-size: 26px;
+   padding-bottom: 40px;
+}
 img {
    height: 100px;
  }
@@ -44,6 +51,16 @@ img {
  .rules1 {
    height: 250px;
  }
-button {
-   border-radius: 10%;
+.rpslsButton {
+   background: none;
+   border: none;
+}
+#endGameButton{
+   margin-top: 20px;
+   font-family: 'Signika', sans-serif;
+   font-size: 26px;
+   background-color:#e3f1f1; 
+   padding: 10px;
+   border-style:double;
+   border-width: 5px;
 }
