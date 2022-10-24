@@ -55,6 +55,15 @@ img {
    background: none;
    border: none;
 }
+.rpslsButton:hover{
+   transform: scale(1.5);
+   transition: 0.5s;
+}
+.rpslsButton:active{
+   background-color: #589595;
+   transform: translateY(4px);
+   
+}
 #endGameButton{
    margin-top: 20px;
    font-family: 'Signika', sans-serif;
@@ -63,4 +72,8 @@ img {
    padding: 10px;
    border-style:double;
    border-width: 5px;
+}
+#endGameButton:hover{
+   background-color: #589595;
+   transform: translateY(4px);
 }
