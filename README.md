@@ -5,6 +5,7 @@ This project is a fun game that will let you have a good time while working.
 For example; Sometimes you just won´t get your head around problems or thougts, thats when this game come in handy.
 
 ![Responsive](assets/readme-files/responsive.jpg)
+![lighthouse-tool](assets/readme-files/lighthouse.jpg)
 
 ## Features 
 
