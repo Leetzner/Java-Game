@@ -4,7 +4,7 @@ This project is a fun game that will let you have a good time while working.
 
 For example; Sometimes you just won´t get your head around problems or thougts, thats when this game come in handy.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive](assets/readme-files/responsive.jpg)
 
 ## Features 
 
