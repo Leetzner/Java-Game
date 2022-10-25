@@ -12,40 +12,43 @@ In this section, you should go over the different parts of your project, and des
 
 ### Existing Features
 
-- __Navigation Bar__
+- __Header__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Thought it was fun to implement a text of "I wan´t to play a game" (the quote is from the saw movies).
+  - Then a small text of the game content, I want to keep it very simple with the coice of this layout, focus should be on the game. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Header](assets/readme-files/Header.jpg)
 
-- __The landing page image__
+- __Rules__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - Found a picture that explains the game from Steam (https://steamcommunity.com/sharedfiles/filedetails/?id=798194678). 
+  - Thought of having a videoclip here with Sheldon from big bang theory explaining the game, but that seemed a little too much for this design.
+  - Chose to have a blue background to make the picture blend in. 
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Rules](assets/readme-files/rules.jpg)
 
-- __Club Ethos Section__
+- __Selection-section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section invites you to pick a "sign" of choice. 
+  - When picked, the game will start. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Selection](assets/readme-files/selection.jpg)
 
-- __Meetup Times section__
+- __Score-section__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will appear when the game is played. 
+  - It will keep track of you score against the computer, you get +1 point for wins, 0 points for draw, and -1 if you loose. 
+  - I made it so you won´t see the computers score, what matters is you!
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Score-section](assets/readme-files/scoresection.jpg)
 
-- __The Footer__ 
+- __Restart button__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - This button will restart the game. 
+  - If you wanna be the first one to 100 points, you may want to start over if you on the minus side.
+  - When you hover over this it changes color, when you press it changes again.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![restart-button](assets/readme-files/button1.jpg)[restart-button2](assets/readme-files/button2.jpg)[restart-button2](assets/readme-files/button3.jpg)
 
 - __Gallery__
 
